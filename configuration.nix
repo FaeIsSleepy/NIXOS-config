@@ -63,6 +63,15 @@
 
     };
   };
+<<<<<<< HEAD
+=======
+
+fonts.packages = with pkgs; [
+  gohufont
+  maple-mono
+
+];
+>>>>>>> 8ee87ca (inital commit)
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.fae = {
     isNormalUser = true;
@@ -82,13 +91,32 @@
   firefox
   vesktop
   kitty
+<<<<<<< HEAD
   git
+=======
+#  git
+>>>>>>> 8ee87ca (inital commit)
   i3status-rust
   wget  
   xivlauncher  
   taffybar
+<<<<<<< HEAD
   ];
 
+=======
+  obsidian
+  pulseaudio
+  pavucontrol
+  zoom-us
+  links2
+  wine64
+  irssi
+#  cargo
+  hwinfo 
+ ];
+
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+>>>>>>> 8ee87ca (inital commit)
 
 programs.steam = {
   enable = true;
@@ -98,7 +126,10 @@ programs.steam = {
 };
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8ee87ca (inital commit)
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
