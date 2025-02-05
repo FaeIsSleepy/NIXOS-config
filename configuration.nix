@@ -49,24 +49,6 @@
         xterm.enable = false;
   };
      displayManager = {
-<<<<<<< HEAD
-      defaultSession = "none+i3";
-  };
-
-     windowManager.i3 = {
-       enable = true;
-       extraPackages = with pkgs; [
-       dmenu
-       i3lock
-       i3blocks
-
-      ];
-
-    };
-  };
-<<<<<<< HEAD
-=======
-=======
       defaultSession = "none+exwm";
   };
 
@@ -81,17 +63,12 @@
 
     };
   };
->>>>>>> 8af7049 (inital commit)
 
 fonts.packages = with pkgs; [
   gohufont
   maple-mono
 
 ];
-<<<<<<< HEAD
->>>>>>> 8ee87ca (inital commit)
-=======
->>>>>>> 8af7049 (inital commit)
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.fae = {
     isNormalUser = true;
@@ -111,26 +88,11 @@ fonts.packages = with pkgs; [
   firefox
   vesktop
   kitty
-<<<<<<< HEAD
-<<<<<<< HEAD
   git
-=======
-#  git
->>>>>>> 8ee87ca (inital commit)
-=======
-  git
->>>>>>> 8af7049 (inital commit)
   i3status-rust
   wget  
   xivlauncher  
   taffybar
-<<<<<<< HEAD
-<<<<<<< HEAD
-  ];
-
-=======
-=======
->>>>>>> 8af7049 (inital commit)
   obsidian
   pulseaudio
   pavucontrol
@@ -138,14 +100,6 @@ fonts.packages = with pkgs; [
   links2
   wine64
   irssi
-<<<<<<< HEAD
-#  cargo
-  hwinfo 
- ];
-
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
->>>>>>> 8ee87ca (inital commit)
-=======
   cargo
   hwinfo 
   unnethack 
@@ -159,7 +113,6 @@ fonts.packages = with pkgs; [
   services.devmon.enable = true;
   services.gvfs.enable = true; 
   services.udisks2.enable = true;
->>>>>>> 8af7049 (inital commit)
 
 programs.steam = {
   enable = true;
@@ -169,15 +122,8 @@ programs.steam = {
 };
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 8ee87ca (inital commit)
-=======
 
 
->>>>>>> 8af7049 (inital commit)
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
